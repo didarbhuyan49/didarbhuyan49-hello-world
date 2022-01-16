@@ -1,5 +1,5 @@
 ---
-- name: Installing a webserver
+- name: Installing a Webserver
   hosts: web
   tasks:
   - name: Install HTTP Webserver
