@@ -16,7 +16,7 @@
       state: touch
   - name: Test html page
     copy:
-      content: "Welcome to Pagecloud Academy"
+      content: "Welcome to git"
       dest: /var/www/html/index.html
   - name: Enable Firewalld
     firewalld:
